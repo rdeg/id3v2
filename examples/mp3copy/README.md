@@ -22,3 +22,8 @@ Every MP3 file in this tree (or flat) directory will be processed.
 
 If a `destination_directory` is given, source files will be copied (or moved if the -m option is given) to this directory according
 to the hierarchy tree given by their tags. New <artist> and <album> subdirectories will be created as needed.
+
+Even with a zero-verbosity (the default for option `-v`), some ouput showing the progression of the copying process is made.
+This output goes to stdout and can easily be redirected to a file. When a big-enough music library has to be processed, it is
+recommended to first run `mp3copy` without giving a destination directory and to redirect the output to a file, to make sure
+everything will go as expected. In case of trouble, it can be useful to raise the level of verbosity.
