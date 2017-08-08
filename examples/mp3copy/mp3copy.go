@@ -1,3 +1,8 @@
+/*
+This utility uses the id3v3 package to sort and organize an MP3 library in a tree that respects the following organization:
+
+	<artist>/<album>/[<disk>-]<track> <title>.mp3
+*/
 package main
 
 import (
