@@ -1,3 +1,4 @@
+// This utility uses the id3v3 package to find duplicates in an MP3 library.
 package main
 
 import (
